@@ -12,6 +12,7 @@ const SECONDS_IN_MINUTE: u32 = 60;
  */
 fn main() {
     println!("--- Variables, Mutability, and Shadowing ---");
+    println!("A minute has {} seconds (from constant).", SECONDS_IN_MINUTE);
 
     // By default, variables are immutable.
     let an_immutable_variable = 5;
